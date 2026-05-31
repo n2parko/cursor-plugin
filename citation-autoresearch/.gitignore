@@ -1,0 +1,4 @@
+.cache/
+autoresearch_log.jsonl
+__pycache__/
+*.pyc

@@ -1,0 +1,7 @@
+# Live LLM predictions (optional — the loop falls back to an offline heuristic
+# if these are absent). Install to enable Claude:
+anthropic>=0.40
+
+# Used for Semantic Scholar / arXiv fetching. The loop also works fully offline
+# from the bundled snapshot dataset if the network is unavailable.
+requests>=2.28

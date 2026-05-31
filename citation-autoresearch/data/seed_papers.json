@@ -1,0 +1,178 @@
+[
+  {
+    "paper_id": "arXiv:1706.03762",
+    "title": "Attention Is All You Need",
+    "abstract": "We propose the Transformer, a sequence transduction architecture based solely on attention mechanisms, dispensing with recurrence and convolutions. The model is more parallelizable and reaches state-of-the-art translation quality with substantially less training time.",
+    "year": 2017,
+    "venue": "NeurIPS",
+    "fields": ["Computer Science"],
+    "author_names": ["A. Vaswani", "N. Shazeer", "N. Parmar", "J. Uszkoreit", "L. Jones", "A. Gomez", "L. Kaiser", "I. Polosukhin"],
+    "reference_count": 40,
+    "citation_count": 115000
+  },
+  {
+    "paper_id": "arXiv:1810.04805",
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "abstract": "We introduce BERT, which pre-trains deep bidirectional representations from unlabeled text by jointly conditioning on left and right context. Fine-tuned BERT obtains new state-of-the-art results on a wide range of language understanding benchmarks.",
+    "year": 2018,
+    "venue": "NAACL",
+    "fields": ["Computer Science"],
+    "author_names": ["J. Devlin", "M. Chang", "K. Lee", "K. Toutanova"],
+    "reference_count": 60,
+    "citation_count": 95000
+  },
+  {
+    "paper_id": "arXiv:1512.03385",
+    "title": "Deep Residual Learning for Image Recognition",
+    "abstract": "We present a residual learning framework that reformulates layers as learning residual functions, easing the training of substantially deeper networks. Our 152-layer residual networks win the ImageNet classification benchmark and generalize to detection and segmentation.",
+    "year": 2015,
+    "venue": "CVPR",
+    "fields": ["Computer Science"],
+    "author_names": ["K. He", "X. Zhang", "S. Ren", "J. Sun"],
+    "reference_count": 50,
+    "citation_count": 210000
+  },
+  {
+    "paper_id": "arXiv:1412.6980",
+    "title": "Adam: A Method for Stochastic Optimization",
+    "abstract": "We introduce Adam, an algorithm for first-order gradient-based optimization of stochastic objective functions based on adaptive estimates of lower-order moments. It is computationally efficient, has little memory requirement, and works well across a broad range of problems.",
+    "year": 2014,
+    "venue": "ICLR",
+    "fields": ["Computer Science", "Mathematics"],
+    "author_names": ["D. Kingma", "J. Ba"],
+    "reference_count": 30,
+    "citation_count": 165000
+  },
+  {
+    "paper_id": "arXiv:1406.2661",
+    "title": "Generative Adversarial Networks",
+    "abstract": "We propose a framework for estimating generative models via an adversarial process, training a generator and a discriminator simultaneously. The approach requires no Markov chains and produces sharp samples across image datasets.",
+    "year": 2014,
+    "venue": "NeurIPS",
+    "fields": ["Computer Science"],
+    "author_names": ["I. Goodfellow", "J. Pouget-Abadie", "M. Mirza", "B. Xu", "D. Warde-Farley", "S. Ozair", "A. Courville", "Y. Bengio"],
+    "reference_count": 30,
+    "citation_count": 75000
+  },
+  {
+    "paper_id": "arXiv:1409.1556",
+    "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+    "abstract": "We investigate the effect of network depth on accuracy in large-scale image recognition using an architecture with very small convolution filters. Pushing depth to 16-19 layers yields a significant improvement and strong generalization.",
+    "year": 2014,
+    "venue": "ICLR",
+    "fields": ["Computer Science"],
+    "author_names": ["K. Simonyan", "A. Zisserman"],
+    "reference_count": 35,
+    "citation_count": 115000
+  },
+  {
+    "paper_id": "arXiv:1502.03167",
+    "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+    "abstract": "We propose normalizing layer inputs for each training mini-batch, allowing much higher learning rates and reducing sensitivity to initialization. Batch normalization accelerates training and improves accuracy on image classification.",
+    "year": 2015,
+    "venue": "ICML",
+    "fields": ["Computer Science"],
+    "author_names": ["S. Ioffe", "C. Szegedy"],
+    "reference_count": 30,
+    "citation_count": 55000
+  },
+  {
+    "paper_id": "arXiv:2005.14165",
+    "title": "Language Models are Few-Shot Learners",
+    "abstract": "We train GPT-3, an autoregressive language model with 175 billion parameters, and evaluate it in the few-shot setting without gradient updates. It achieves strong performance on many language tasks from only a few examples in context.",
+    "year": 2020,
+    "venue": "NeurIPS",
+    "fields": ["Computer Science"],
+    "author_names": ["T. Brown", "B. Mann", "N. Ryder", "M. Subbiah", "J. Kaplan", "P. Dhariwal", "A. Neelakantan", "and others"],
+    "reference_count": 75,
+    "citation_count": 32000
+  },
+  {
+    "paper_id": "arXiv:1505.04597",
+    "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+    "abstract": "We present a network and training strategy that relies on strong use of data augmentation to make efficient use of annotated samples. The contracting-expanding architecture with skip connections wins segmentation challenges from very few images.",
+    "year": 2015,
+    "venue": "MICCAI",
+    "fields": ["Computer Science", "Medicine"],
+    "author_names": ["O. Ronneberger", "P. Fischer", "T. Brox"],
+    "reference_count": 20,
+    "citation_count": 88000
+  },
+  {
+    "paper_id": "arXiv:1506.01497",
+    "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+    "abstract": "We introduce a Region Proposal Network that shares full-image convolutional features with the detection network, enabling nearly cost-free region proposals. The merged system achieves state-of-the-art object detection accuracy in near real time.",
+    "year": 2015,
+    "venue": "NeurIPS",
+    "fields": ["Computer Science"],
+    "author_names": ["S. Ren", "K. He", "R. Girshick", "J. Sun"],
+    "reference_count": 35,
+    "citation_count": 58000
+  },
+  {
+    "paper_id": "arXiv:1301.3781",
+    "title": "Efficient Estimation of Word Representations in Vector Space",
+    "abstract": "We propose two model architectures for computing continuous vector representations of words from very large datasets. The representations capture syntactic and semantic regularities and are far cheaper to train than prior approaches.",
+    "year": 2013,
+    "venue": "ICLR Workshop",
+    "fields": ["Computer Science"],
+    "author_names": ["T. Mikolov", "K. Chen", "G. Corrado", "J. Dean"],
+    "reference_count": 25,
+    "citation_count": 42000
+  },
+  {
+    "paper_id": "arXiv:1409.0473",
+    "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+    "abstract": "We conjecture that the fixed-length vector is a bottleneck in encoder-decoder translation and propose to let the model automatically soft-search for relevant source words. The attention mechanism improves translation, especially for long sentences.",
+    "year": 2014,
+    "venue": "ICLR",
+    "fields": ["Computer Science"],
+    "author_names": ["D. Bahdanau", "K. Cho", "Y. Bengio"],
+    "reference_count": 30,
+    "citation_count": 37000
+  },
+  {
+    "paper_id": "arXiv:1503.02531",
+    "title": "Distilling the Knowledge in a Neural Network",
+    "abstract": "We show that knowledge in an ensemble can be compressed into a single small model by training it to match softened class probabilities. The distilled model retains much of the accuracy at a fraction of the cost.",
+    "year": 2015,
+    "venue": "NeurIPS Workshop",
+    "fields": ["Computer Science"],
+    "author_names": ["G. Hinton", "O. Vinyals", "J. Dean"],
+    "reference_count": 15,
+    "citation_count": 22000
+  },
+  {
+    "paper_id": "arXiv:1607.06450",
+    "title": "Layer Normalization",
+    "abstract": "We transpose batch normalization into layer normalization by computing the normalization statistics over the summed inputs within a layer. The method is effective for recurrent networks and stabilizes training without batch dependence.",
+    "year": 2016,
+    "venue": "arXiv",
+    "fields": ["Computer Science"],
+    "author_names": ["J. Ba", "J. Kiros", "G. Hinton"],
+    "reference_count": 20,
+    "citation_count": 12000
+  },
+  {
+    "paper_id": "arXiv:1312.6114",
+    "title": "Auto-Encoding Variational Bayes",
+    "abstract": "We introduce a stochastic variational inference and learning algorithm that scales to large datasets and intractable posteriors. A reparameterization of the variational lower bound yields an estimator optimizable by standard gradient methods.",
+    "year": 2013,
+    "venue": "ICLR",
+    "fields": ["Computer Science", "Mathematics"],
+    "author_names": ["D. Kingma", "M. Welling"],
+    "reference_count": 20,
+    "citation_count": 35000
+  },
+  {
+    "paper_id": "arXiv:1511.06434",
+    "title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
+    "abstract": "We introduce a class of convolutional GANs with architectural constraints that make them stable to train. The learned representations are useful for downstream tasks and the generator supports vector arithmetic on samples.",
+    "year": 2015,
+    "venue": "ICLR",
+    "fields": ["Computer Science"],
+    "author_names": ["A. Radford", "L. Metz", "S. Chintala"],
+    "reference_count": 25,
+    "citation_count": 17000
+  }
+]
